@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crochet Progress project</string>
+    <string name="info">Die Info</string>
+    <string name="crochet_terms">gehäkelte Begriffe</string>
+    <string name="hook_conversion_chart">Hook-Umwandlungstabelle</string>
+    <string name="submit">Einreichen</string>
+    <string name="cancel">Absagen</string>
+    <string name="partName">Teilname</string>
+    <string name="dashboard">Armaturenbrett</string>
+    <string name="part_name">Teilname</string>
+    <string name="counter">Zähler</string>
+    <string name="project_information">Projekt Information</string>
+    <string name="needle_size">Nadelgröße</string>
+    <string name="yarn_weight">"Garngewicht "</string>
+    <string name="project_description">Projektbeschreibung</string>
+    <string name="add_new_part">Neuen Teil hinzufügen</string>
+    <string name="no_project_added_yet">Noch kein Projekt hinzugefügt</string>
+    <string name="project_name">Projektname</string>
+    <string name="hook_size">"Hakengröße "</string>
+
+    <string name="add_project">Projekt hinzufügen</string>
+    <string name="edit_project">Projekt bearbeiten</string>
+
+    <string name="project_details">Projekt Details</string>
+
+    <string name="added_part">Teil hinzugefügt</string>
+    <string name="valid_data">Geben Sie gültige Daten ein</string>
+    <string name="enter_part_name">Teilename eingeben</string>
+    <string name="add_btn">Hinzufügen</string>
+    <string name="cancel_btn">Absagen</string>
+
+</resources>

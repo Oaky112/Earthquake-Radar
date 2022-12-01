@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="headline_color">#FFFFFF</color>
+    <color name="backgroundColor">#454545</color>
+
+    <color name="iconTintColor">#FFFFFF</color>
+    <color name="para_colors">#ECE4E4</color>
+
+</resources>
