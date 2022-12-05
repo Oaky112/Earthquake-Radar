@@ -1,34 +1,37 @@
 <resources>
     <string name="app_name">Crochet Progress project</string>
     <string name="info">Info</string>
+    <string name="map">Map</string>
 
-    <string name="crochet_terms">crochet terms</string>
-    <string name="hook_conversion_chart">hook conversion chart</string>
+    <string name="crochet_terms">Earths Structure</string>
+    <string name="Earthquake_Richter_Scale">Earthquake Richter Scale</string>
     <string name="submit">Submit</string>
     <string name="cancel">Cancel</string>
-    <string name="partName">Part Name</string>
+    <string name="partName">Data Name</string>
     <string name="dashboard">Dashboard</string>
-    <string name="part_name">Part Name</string>
+    <string name="part_name">Data Name</string>
     <string name="counter">Counter</string>
-    <string name="project_information">Project Information</string>
-    <string name="needle_size">Needle Size</string>
-    <string name="yarn_weight">Yarn Weight</string>
-    <string name="project_description">Project Description</string>
-    <string name="add_new_part">Add new part</string>
-    <string name="no_project_added_yet">No Project Added Yet</string>
-    <string name="project_name">Project Name</string>
-    <string name="hook_size">Hook Size</string>
-    <string name="add_project">Add Project</string>
-    <string name="edit_project">Edit Project</string>
-    <string name="project_details">Project Details</string>
+    <string name="earthquake_information">Project Information</string>
+    <string name="needle_size">Depth</string>
+    <string name="yarn_weight">Movement Description</string>
+    <string name="project_description">Underlying Soil Description</string>
+    <string name="add_new_part">Add new data</string>
+    <string name="no_project_added_yet">No Earthquake Recorded Yet</string>
+    <string name="project_name">Earthquake Name</string>
+    <string name="hook_size">Magnitude</string>
+    <string name="add_project">Add Data</string>
+    <string name="edit_project">Edit Data</string>
+    <string name="project_details">Earthquake Details</string>
 
-    <string name="added_part">Added Part</string>
+    <string name="added_part">Added Data</string>
     <string name="valid_data">Enter valid data</string>
-    <string name="enter_part_name">Enter Part Name</string>
+    <string name="enter_part_name">Enter a site Name</string>
     <string name="add_btn">Add</string>
     <string name="cancel_btn">Cancel</string>
     <string name="english">English</string>
     <string name="german">German</string>
-    <string name="instructions">Instructions</string>
+    <string name="Catalog">Catalog</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

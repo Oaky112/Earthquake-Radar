@@ -7,45 +7,35 @@
 
     <fragment
         android:id="@+id/mainDashboardFragment"
-        android:name="com.example.crochetprogressproject.Views.MainDashboardFragment"
+        android:name="com.example.earthquakeRadar.Views.MainDashboardFragment"
         android:label="fragment_main_dashboard"
         tools:layout="@layout/fragment_main_dashboard">
-
         <action
-            android:id="@+id/goToInfo"
-            app:destination="@+id/infoFragment"
-            app:launchSingleTop="true"
-            app:popUpTo="@+id/infoFragment"
-            app:popUpToInclusive="true" />
+            android:id="@+id/action_mainDashboardFragment_to_infoFragment2"
+            app:destination="@id/infoFragment" />
         <action
-            android:id="@+id/action_mainDashboardFragment_to_instructionsFragment2"
-            app:destination="@id/instructionsFragment" />
+            android:id="@+id/action_mainDashboardFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
     </fragment>
 
 
     <fragment
         android:id="@+id/infoFragment"
-        android:name="com.example.crochetprogressproject.Views.InfoFragment"
+        android:name="com.example.earthquakeRadar.Views.InfoFragment"
         android:label="fragment_info"
         tools:layout="@layout/fragment_info">
         <action
-            android:id="@+id/goToDashboard"
-            app:destination="@+id/mainDashboardFragment"
-            app:popUpTo="@+id/mainDashboardFragment"
-            app:popUpToInclusive="true"/>
-        <action
-            android:id="@+id/action_infoFragment_to_instructionsFragment2"
-            app:destination="@id/instructionsFragment" />
+            android:id="@+id/action_infoFragment_to_mainDashboardFragment2"
+            app:destination="@id/mainDashboardFragment" />
     </fragment>
+
     <fragment
-        android:id="@+id/instructionsFragment"
-        android:name="com.example.crochetprogressproject.Views.InstructionsFragment"
-        android:label="InstructionsFragment" >
+        android:id="@+id/mapFragment"
+        android:name="com.example.earthquakeRadar.Views.mapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map">
         <action
-            android:id="@+id/action_instructionsFragment_to_infoFragment"
-            app:destination="@id/infoFragment" />
-        <action
-            android:id="@+id/action_instructionsFragment_to_mainDashboardFragment2"
+            android:id="@+id/action_mapFragment_to_mainDashboardFragment"
             app:destination="@id/mainDashboardFragment" />
     </fragment>
 

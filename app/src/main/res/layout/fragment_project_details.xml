@@ -45,7 +45,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/project_information"
+                        android:text="@string/earthquake_information"
                         android:textColor="@color/headline_color"
                         android:textSize="19sp"
                         android:textStyle="bold|normal" />

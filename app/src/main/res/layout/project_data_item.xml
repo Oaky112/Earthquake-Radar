@@ -36,6 +36,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/projectName"
                 android:layout_width="match_parent"
@@ -45,10 +46,37 @@
                 android:textSize="17sp"
                 android:textStyle="bold|normal"/>
             <TextView
+                android:id="@+id/MagName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Magnitude:"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:textStyle="bold|normal"/>
+
+            <TextView
                 android:id="@+id/hookSize"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/hook_size"
+                android:text= "@string/hook_size"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:textStyle="bold|normal"/>
+
+            <TextView
+                android:id="@+id/DepthName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Depth:"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:textStyle="bold|normal"/>
+
+            <TextView
+                android:id="@+id/needleSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "@string/needle_size"
                 android:textColor="@android:color/darker_gray"
                 android:textSize="12sp"
                 android:textStyle="bold|normal"/>
